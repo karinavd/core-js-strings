@@ -54,7 +54,6 @@ function isString(/* value */) {
  *   concatenateStrings('', 'bb') => 'bb'
  */
 function concatenateStrings(value1, value2) {
-  console.log(value1, value2);
   return value1.concat(value2);
 }
 
